@@ -1,0 +1,328 @@
+
+/* Form Stylesheets*/
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	color: #000;
+	margin:0 auto; 
+	background-color:#f0f0f7;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+        font : 14px/22px Arial,Helvetica,Sans-Serif;
+}
+body {
+	background: #f0f0f7 url(../images/bg.gif) top center repeat-y;
+}
+#container {
+	margin:0 auto; 
+	width: 760px;
+	background-color: #F8F5ED;
+}
+.HOMEisBackImg { 
+	background: url(../images/home.gif) no-repeat 30em 10em;
+}
+.PAYMENTisBackImg { 
+	background: url(../images/payment.gif) no-repeat 30em 15em;
+}
+.PROFILEisBackImg { 
+	background: url(../images/profile.gif) no-repeat 30em 15em;
+}
+.ACCOUNTisBackImg { 
+	background: url(../images/account.gif) bottom right no-repeat;
+}
+.TRANSFERisBackImg { 
+	background: url(../images/transfer.gif) no-repeat 30em 15em;
+}
+div.LOGOUTisBackImg, div.isBackImg { 
+	background: url(../images/SecureLogo.jpg) no-repeat 32em 10em;
+}
+
+#header {
+	background: url(../images/header.jpg) #80724D no-repeat;
+	height: 100px;
+}
+#header #lefthead {
+	float:left;
+}
+#header a {
+	height:100px;
+	width:400px;
+	display:block;
+}
+
+#nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 1.4em;
+  background-color: #D5C390;
+  border-bottom: solid 5px #E3D7B5;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav li a:link, #nav li a:visited {
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  width: 7em;
+  height: 1.4em;
+  margin: 0;
+  color: #466432;
+  font-variant: small-caps;
+  font-weight: bold;
+
+}
+
+#nav li a:hover {
+  background-color: #DCCDA3;
+  color: black;
+  border:0;
+}
+
+#nav li.active a:link, #nav li.active a:visited {   
+  background: #E3D7B5;  
+  background-color: #E3D7B5;  
+  color: #000;
+}
+a.actlnk {
+	text-decoration: none;
+}
+a:hover.actlnk {
+	
+}
+table#accsumm {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+table#accsumm thead tr {
+	font-weight: bold;
+	background: #ccc;
+}
+table#accsumm tbody tr.row1 {
+	background: #eee;
+}
+table#accsumm tbody tr.row2 {
+	background: #fff;
+}
+table#accsumm tfoot tr {
+	font-weight: bold;
+}
+#footer {
+	background: #E3D7B5;
+	clear: both;
+	border-top: 5px solid #D5C390;
+	border-bottom: 5px solid #d8d8eb;
+}
+#footer span {
+	display: block;
+	font-size: 0.8em;
+	color: #80724D;
+	font-weight: bold;
+}
+
+#main {
+	margin: 10px;
+	padding: 10px;
+	min-height: 350px;
+}
+* html body #main {
+	height: 350px;
+}
+form#reg {
+	margin-top: 20px;
+}
+
+form#reg ul, form li {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+form#reg label {
+	width: 9em;
+	float: left;
+	font-weight: bold;
+	text-align: left;
+	clear: left;
+	margin-right: 0.5em;
+}
+
+form#reg input {
+	text-align: left;
+	float: left;
+	clear: right;
+}
+
+form#reg input.nolabel {
+	position: relative;
+	padding: 4px;
+	clear: both;
+	float: none;
+	margin-left: 8em;
+	height: 50px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2em;
+	display: block;
+}
+
+form#reg li {
+	clear: both;
+	width: auto;
+	margin-bottom: 0.5em;
+	padding: 2px;
+	float: left;
+	clear: left;
+	/* Line up with errored inputs*/
+	border: 2px #F8F5ED solid;
+}
+
+form#reg br {
+	clear: both;
+}
+
+form#reg h2 {
+	position: relative;
+	clear: both;
+	float: none;
+	display: block;
+}
+
+form#reg li.error {
+	border: 2px solid #FF0000;
+	padding-right: 30px;
+	background: url('../images/error.gif') center right no-repeat #FCD6D4;
+}
+
+h3 span {
+	font-size:0.7em;
+}
+span.errormsg {
+	font-weight: bold;
+	font-size: 65%;
+}
+
+div.error, div.good {
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+	width: 400px;
+	font-weight:bold;
+	display:block;
+	border: 1px solid #999;
+}
+
+div.error {
+	background: url(../images/warning.png) left #eee no-repeat;
+	color: #ff0000;
+	font-size:0.9em;
+}
+
+div.good {
+	background: url(../images/ok.png) left #eee no-repeat;
+	color: #009900;
+}
+
+
+h1 {
+	color: #494B5E;
+}
+
+#paymentnav {
+  	height: 1.1em;
+	margin: 10px;
+}
+#paymentnav li {
+	display: inline;
+	border-bottom: solid 5px #E3D7B5;
+}
+#paymentnav li a {
+	color: #000;
+	background: #eee;
+	height: 1.1em;
+}
+
+#paymentnav li a:hover {
+	color: #fff;
+	background: #999;
+	height: 1.1em;
+}
+.deletepayee {
+	color: #000;
+	height: 1.1em;
+	background: #E3D7B5;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+
+#note {
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+#note ul {
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 5px solid #ccc;
+}
+#note ul li {
+	font-size: 10px;
+	margin-left: 5px;
+	list-style: none;
+	width: 420px;
+}
+p {
+	clear: both;
+}
+#payview li {
+	list-style: none;
+}
+
+
+#subbar {
+	float: right;
+	text-align: right;
+	margin-top:5px;
+	margin-right:5px;
+	padding:0;
+	color: #fff;
+}
+#subar p {
+	font-weight: bold;
+	margin:5px;
+}
+#subbar ul {
+	font-size: 10px;
+	width: 190px;
+	font-style: italic;
+	margin:50px 0 0 0;
+}
+#subbar ul li {
+	font-size: 10px;
+	list-style: none;
+	display: inline;
+}
+#subbar ul li select, #subbar ul li select option {
+	font-size: 10px;
+	width: 80px;
+}
+
+#userbar {
+	margin:0;
+	padding:0;
+	float: right;
+	color: white;
+	font-weight: bold;
+}
+
+#homecont {
+	width: 425px;
+}
+
+#homecont p {
+	margin: 5px;
+}
